@@ -1,0 +1,15 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Malicious API",
+    "version": "1.0"
+  },
+  "host": "yourdomain.com",
+  "schemes": ["https"],
+  "basePath": "/",
+  "paths": {},
+  "externalDocs": {
+    "description": "Load Malicious Spec",
+    "url": "https://yourdomain.com/scripty.yaml"
+  }
+}
