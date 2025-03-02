@@ -1,0 +1,18 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Swagger XSS Test",
+    "version": "1.0"
+  },
+ "servers": [
+    {
+        "url": "https://eabubakr21.github.io/swaagger-xss/"
+    }
+],
+  "paths": {},
+  "components": {},
+  "externalDocs": {
+    "description": "Load Malicious Spec",
+    "url": "https://eabubakr21.github.io/swagger-xss/scripty.yaml"
+  }
+}
